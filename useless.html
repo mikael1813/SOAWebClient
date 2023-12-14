@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .available-yes {
+            color: green;
+        }
+
+        .available-no {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Menu</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Available</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Para</td>
+        <td>200</td>
+        <td class="available-yes">Yes</td>
+    </tr>
+    <tr>
+        <td>Pasta</td>
+        <td>150</td>
+        <td class="available-yes">Yes</td>
+    </tr>
+    <tr>
+        <td>Burger</td>
+        <td>120</td>
+        <td class="available-no">No</td>
+    </tr>
+    <!-- Add more rows for other foods -->
+    </tbody>
+</table>
+
+</body>
+</html>
